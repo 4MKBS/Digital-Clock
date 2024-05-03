@@ -1,0 +1,55 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: 3rem;
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.day{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px;
+  background: linear-gradient(to right,#d7cb5b , #ac39ac,#d16f2e, #d7427b);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: #120ee1;
+ border: 2px solid #120ee1;;
+  border-radius: 10px;
+}
+.clock {
+  display: flex;
+  font: bold 2rem/1.5 "Roboto Mono", monospace;
+  color: #235785;
+  background-color: rgb(15, 230, 130, 0.5);
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid #235785;
+  border-radius: 10px;
+  
+}
+
+
